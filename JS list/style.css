@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.table{
+    margin-top: 30px;   
+}
+h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+}
+#button{
+    width: 110px;
+    height: 30px;
+    background-color: #FA8072;
+    color: white;
+    border-radius: 8px;
+    font-size: 13px;
+}
+ul li{
+    font-family: 'Kosugi', sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-bottom: 1px dotted grey;
+}
