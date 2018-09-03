@@ -26,14 +26,17 @@ const salys = [
         area:185180,
     }
  ];
+
+ let gyvPlotas;
  let i=0;
  let text="";
     while(i<salys.length){
-    document.write("<p> Coutry: "+ salys[i].country +"  plotas tenkantis vienam gyventojuj "+ salys[i].population/salys[i].area+ "</p>") 
+        plotasGyventojam(salys[i].area,salys[i].population);
+    document.write(`<p> Coutry: "+ salys[i].country +" joje gyvena " +salys[i].population+"salies plotas "+salys[i].  + " zmones "+ "plotas tenkantis vienam gyventojuj "${gyvPlotas} </p>`) 
     i++       
     }
-    function plotasGyventojam(){
-        plotasGyventojam===salys[i].population/salys[i].area
+    function plotasGyventojam(plotas, gyventoju){
+     gyvPlotas=plotas/gyventoju;
     }
 //gyventoju skaicius dalijamas is salies ploto 
 // document.write(salys[0].country)
