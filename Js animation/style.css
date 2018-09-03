@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+#main{
+    background-color: aquamarine;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    margin: 100px 0px 0px 100px;
+}
+#inside{
+    background-color: beige;
+    width: 100px;
+    height:100px;
+    position: absolute;
+}
