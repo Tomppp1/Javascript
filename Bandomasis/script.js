@@ -88,9 +88,15 @@ const TEST_DATA = [
       "country": "Malaysia"
     }
   ]
-  i=0;
-  while( i<TEST_DATA.length ){
-    i++
-    console.log(`${TEST_DATA[i].country}<br>`)
+  // i=0;
+  // while( i<TEST_DATA.length ){
+  //   i++
+  //   console.log(`${TEST_DATA[i].country}<br>`)
+  // }
+
+  for(i=0;i<TEST_DATA.length;i++){
+    if (str.indexOf(TEST_DATA[i].country)===-1){
+        console.log("We found it"); 
+    }
   }
   
