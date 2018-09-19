@@ -15,14 +15,8 @@ header{
 }
 .headerName{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
     grid-column: 2/3;
     justify-content: center;
-    align-content: center;
-}
-.addList{
-    display: grid;
-    justify-content: flex-start;
     align-content: center;
 }
 h1{
@@ -120,5 +114,4 @@ input, textarea, select, button {
 #addItem:hover{
     color: #3590D5;
 }
-#addList{
-}
+

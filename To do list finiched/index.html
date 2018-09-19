@@ -12,9 +12,6 @@
         <header>
             <div class="headerName">
                 <h1>To do list</h1>
-                <div class="addList">
-                    <i id="addList" class="fas fa-plus-circle fa-2x" onclick="addButton()"></i>
-                </div>
             </div>
         </header>
         <main>
@@ -35,13 +32,15 @@
             <div class="content">
                 <div class="contentTop">
                     <div class="contentTopName">
-                        <h2>Add ne list</h2>
-                        
+                        <h2 id="listName1">List name</h2>
+                    </div>
+                    <div class="editListName" onclick="changeName1()">
+                        <i class="far fa-edit"></i>
                     </div>
                 </div>
             </div>
         </main>
-        
+
 
         <script src="script.js"></script>
     </body>

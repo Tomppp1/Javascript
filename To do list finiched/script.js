@@ -36,3 +36,12 @@ function changeName(){
         listName.innerHTML=enterNewName;
     }
 }
+function changeName1(){
+    let listName=document.getElementById("listName1");
+    let enterNewName=prompt("Enter new list name");
+    if (enterNewName===""){
+        alert("List name was not changed")
+    }else{
+        listName1.innerHTML=enterNewName;
+    }
+}
