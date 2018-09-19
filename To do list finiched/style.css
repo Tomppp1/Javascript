@@ -10,13 +10,26 @@ header{
     height: 60px;
     width: 100vw;
     background-color: #42D7BA;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.headerName{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column: 2/3;
+    justify-content: center;
+    align-content: center;
+}
+.addList{
+    display: grid;
+    justify-content: flex-start;
+    align-content: center;
 }
 h1{
     text-align: center;
     color: white;
     margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
-    padding-top: 10px;
 }
 h2{
     color: white;
@@ -106,4 +119,6 @@ input, textarea, select, button {
 }
 #addItem:hover{
     color: #3590D5;
+}
+#addList{
 }

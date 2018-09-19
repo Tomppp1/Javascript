@@ -22,3 +22,17 @@ function addButtonSecond(){
         document.getElementById("inputSecond").value="";
     }
 }
+// document.getElementsByTagName("LI").addEventListener("click", displayDate);
+// function displayDate(){
+// alert("Sfs")
+// }
+
+function changeName(){
+    let listName=document.getElementById("name");
+    let enterNewName=prompt("Enter new list name");
+    if (enterNewName===""){
+        alert("List name was not changed")
+    }else{
+        listName.innerHTML=enterNewName;
+    }
+}
