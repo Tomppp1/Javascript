@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: grey;
 }
 .main{
     display: flex;
@@ -14,7 +14,7 @@ header{
     margin-top: 30px;
 }
 .headerTop{
-   width: 546px;
+   width: 700px;
    height: 40px; 
    border: 3px solid #5758fb;
    margin-top: 30px;
@@ -58,7 +58,6 @@ ul li{
     color: white;
 }
 header, h1{
-    text-align: center;
     margin:0px;
     font-family: 'Lato', sans-serif;
     color: white;
@@ -69,4 +68,6 @@ h2{
     border: 3px solid #5758fb;
     width: 194px;
     text-align: center;
+}i{
+    float: right;
 }

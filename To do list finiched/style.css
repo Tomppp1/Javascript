@@ -1,0 +1,109 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #383D3E;
+}
+*{
+    box-sizing: border-box;
+}
+header{
+    height: 60px;
+    width: 100vw;
+    background-color: #42D7BA;
+}
+h1{
+    text-align: center;
+    color: white;
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 10px;
+}
+h2{
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    margin: 0px;
+    float: right;
+}
+i{
+    color: white;
+    size: 36px;
+    font-size: 20px;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.content{
+    width: 30%;
+    margin-top: 30px;
+}
+.contentTop{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr) ;
+}
+.contentTopName{
+    grid-template-columns: 1/2;
+}
+.editListName{
+    display: grid;
+    margin-left: 7px;
+    justify-content: flex-start;
+    align-content: center;
+    transition: 200ms;
+}    
+.editListName :hover{
+    background-color:#383D3E; 
+    color: #3590D5;
+   
+}
+#list{
+    padding: 0px;
+}
+ul{
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+li{
+    color: white;
+    background-color: #5E6567;
+    height:40px ;
+    width:250px ;
+    border-radius: 50px;
+    font-size: 20px;
+    list-style: none;
+    margin-top: 10px;
+    padding-top: 7px;
+    padding-left: 8px;
+}
+#check{
+    position: absolute;
+}
+#input{
+    margin-top: 10px;
+    background-color: #5E6567;
+    width: 250px;
+    height: 40px;
+    border-radius: 50px;
+    border:2px solid #42D7BA; 
+    padding-left: 7px;
+}
+input, textarea, select, button {
+    color: white;
+    font-size: 18px;
+    background-color: red;
+}
+::placeholder{
+    color:#383D3E;
+}
+#addItem {
+    position: absolute;
+    font-size: 40px;
+    padding-left: 7px;
+    margin-top: 10px;
+    transition: 200ms;
+}
+#addItem:hover{
+    color: #3590D5;
+}
