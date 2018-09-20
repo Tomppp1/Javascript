@@ -6,7 +6,6 @@
         <title>To do list</title>
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-
     </head>
     <body>
         <header>
@@ -25,9 +24,9 @@
                     </div>
                 </div>
                 <ul id="list"></ul>
-                    <!-- <li onclick="clickLi()"><i class="far fa-circle fa-xs"></i></i></li> -->
-                    <input type="text" placeholder="Enter text" id="input">
-                    <i id="addItem" class="fas fa-plus-circle" onclick="addButton()"></i>
+                <!-- <li onclick="clickLi()"><i class="far fa-circle fa-xs"></i></i></li> -->
+                <input type="text" placeholder="Enter text" id="input" maxlength="25">
+                <i id="addItem" class="fas fa-plus-circle" onclick="addButton()"></i>
             </div>
             <div class="content">
                 <div class="contentTop">
@@ -38,10 +37,12 @@
                         <i class="far fa-edit"></i>
                     </div>
                 </div>
+                <ul id="list2"></ul>
+                <!-- <li onclick="clickLi()"><i class="far fa-circle fa-xs"></i></i></li> -->
+                <input type="text" placeholder="Enter text" id="input" maxlength="25">
+                <i id="addItem" class="fas fa-plus-circle" onclick="addButton2()"></i>
             </div>
         </main>
-
-
         <script src="script.js"></script>
     </body>
 </html>
